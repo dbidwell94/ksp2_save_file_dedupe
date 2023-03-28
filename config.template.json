@@ -1,5 +1,5 @@
 {
-    "saveLocation": "KSP_SAVE_LOCATION_HERE (C:\\Users\\USERNAME\\AppData\\LocalLow\\Intercept Games\\Kerbal Space Program 2\\Saves\\SinglePlayer)",
+    "saveLocation": "KSP_SAVE_LOCATION_HERE (example: C:\\Users\\USERNAME\\AppData\\LocalLow\\Intercept Games\\Kerbal Space Program 2\\Saves\\SinglePlayer)",
     "byteThreshold": {
         "size": 100,
         "format": "KB"
