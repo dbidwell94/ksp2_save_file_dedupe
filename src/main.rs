@@ -3,7 +3,7 @@ use std::{
     collections::{HashSet, VecDeque},
     error::Error,
     fs::{self, File, OpenOptions},
-    io::{BufReader, BufWriter},
+    io::{BufReader, BufWriter, stdin, Read},
     path::{Path, PathBuf},
     sync::Arc,
     thread::{self, JoinHandle},
@@ -50,6 +50,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     let saves = get_saves(ksp_dir)?;
 
     dedupe_saves(saves, config)?;
+
+    println!("\n\nPress 'enter' or 'return' key to close this window");
+    stdin().read(&mut [0]).unwrap();
 
     Ok(())
 }
