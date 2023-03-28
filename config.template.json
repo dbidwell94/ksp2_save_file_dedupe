@@ -1,0 +1,9 @@
+{
+    "saveLocation": "C:\\Users\\dbidw\\AppData\\LocalLow\\Intercept Games\\Kerbal Space Program 2\\Saves\\SinglePlayer",
+    "byteThreshold": {
+        "size": 50,
+        "format": "MB"
+    },
+    "maxThreads": 8,
+    "minify": true
+}
